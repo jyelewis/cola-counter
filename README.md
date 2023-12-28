@@ -5,6 +5,8 @@ Provides a REST API, a web-interface and an MQTT interface to store and retrieve
 
 [Just let me read the code](https://github.com/jyelewis/cola-counter/blob/main/src/modules/fridge/fridge.service.ts)
 
+[See this e2e test for example usage over HTTP](https://github.com/jyelewis/cola-counter/blob/main/test/fridge.e2e-spec.ts)
+
 ## Data model
 ```mermaid
 classDiagram
