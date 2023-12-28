@@ -26,7 +26,9 @@ classDiagram
 `GET /healthcheck` - returns "OK" if the server is healthy
 
 `GET /fridges/:fridgeName` - returns a specific fridge, creates it if it doesn't exist
+
 `POST /fridges/:fridgeName/stock-events { numCansAdded: -1 }` - adds/removes cans from a fridge
+
 `GET /fridges/:fridgeName/stock-events` - returns list of recent stock events 
 
 ### MQTT
